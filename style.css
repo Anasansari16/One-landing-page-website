@@ -1,0 +1,409 @@
+ * {
+    font-family: montserrat;
+}
+.section-header {
+    margin-bottom: 40px;
+}
+.section-header h2 {
+    color: #08194a;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-header h2 span {
+    color: #e53f29;
+}
+.navbar-nav a {
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-light .navbar-brand {
+    color: #08194a;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.navbar-light .navbar-brand span {
+    color: #e53f29 ;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+.w-100 {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    padding: 1px 5px ;
+    font-size: 19px;
+    line-height: 0.3;
+    background: #fff;
+}
+.carousel {
+    background-image: url(images/home.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+    left: 8%;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    margin-top: 25px;
+    color: #08194a;
+    font-weight: 700;
+    text-align: left;
+}
+.carousel-caption h5 span{
+    color: #e53f29;
+}
+.carousel-caption p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #08194a;
+    text-align: left;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #08194a;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/*about*/
+
+.img-area {
+    width: 100% !important;
+}
+.about-text h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #08194a;
+    
+}
+.about-text h2 span{
+    color: #e53f29;
+}
+
+.about-text .btn  {
+    background-color: #08194a;
+    color: #fff;
+}
+
+
+/*Services*/
+
+.single-services {
+    background-color: #08194a;
+    color: #fff;
+    padding: 30px 15px ;
+}
+.single-services i{
+     font-size: 45px;
+     margin-bottom: 30px;
+}
+.section-header h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #08194a;
+    
+}
+.section-header h2 span{
+    color: #e53f29;
+}
+
+.single-services h2{
+    font-family: bebas neue;
+}
+
+
+/*why us*/
+
+
+.choose-img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.single-box {
+    padding: 20px;
+}
+
+.single-box i{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #e53f29;
+    
+}
+
+.single-box h2 {
+    font-family: bebas neue;
+    color: #08194a;
+}
+
+
+/*Testimonionals*/
+
+.imgbox {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0px auto 25px;
+}
+
+.imgbox img {
+    width: 100%;
+}
+.single-client {
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px 15px;
+}
+.single-client h2 {
+    color: #08194a;
+    font-family: bebas neue;
+}
+.single-client h5{
+    color: #08194a;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.single-client h5 span {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+
+/*contact form*/
+
+.left-contact {
+    background-color: #08194a;
+    padding: 60px;
+    color: #fff;
+}
+.left-contact h3{
+    font-family: bebas neue;
+    margin-bottom: 20px ;
+}
+/*we can directly gave label to css no need for id or class*/
+label {
+    font-family: bebas neue;
+    font-size: 28px;
+    margin: 10px 0;
+}
+.contact .btn{
+    background-color: #08194a;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+
+/*footer*/
+footer {
+    background-color: #08194a;
+    padding: 35px 0;
+    color: #fff;
+}
+.socials {
+    font-size: 30px;
+    margin: 0 25px;
+    
+
+}
+.fa-instagram {
+    color: #4f5bd5;
+    font-size: 30px;
+    padding-right: 5px;
+}
+.fa-facebook{
+    color: #3b5998;
+    font-size: 30px;
+    padding-right: 5px;
+}
+.fa-youtube {
+    color: #CD201F;
+    font-size: 30px;
+    padding-right: 5px;
+}
+.fa-twitter {
+    color: #00acee;
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+/*responsives*/
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .about-text h2{
+        margin: 20px 0;
+    }
+    .single-services {
+        margin-bottom: 30px;
+    }
+    .single-box {
+        margin-bottom: 30px;
+    }
+    .single-client {
+        margin-bottom: 35px;
+    }
+    .left-contact {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .carousel-caption {
+        bottom: 100px;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+    } 
+    .carousel-caption p{
+        width: 100%;
+        font-size: 10px;
+    }
+    .carousel-caption a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .about-text h2{
+        font-size: 30px;
+    }
+    .section-header h2{
+        font-size: 30px;
+    }
+    .single-services {
+        margin-bottom: 30px;
+    }
+    .single-box{
+        margin-bottom: 30px;
+    }
+    .single-client {
+        margin-bottom: 30px;
+    }
+    .left-contact{
+        text-align: center;
+    }
+}
+
+
+/* Style for the auto-show form container */
+
+.auto-show-form {
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #08194a;
+    padding: 15px 10px;
+    border: 1px solid #888;
+    width: 70%;
+    max-width: 400px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+    font-family: bebas neue;
+    font-size: 15px;
+
+}
+.form1 {
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.btn-lastform {
+    background-color: #08194a;
+    color: #fff;
+    display: inline-block;
+    margin-top: 18px;
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 10px;    
+}
+
+
+/* Style for the close button (X) */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Style for the auto-show form content */
+#autoShowFormContent {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive design for the auto-show form content */
+@media (max-width: 700px) {
+    .auto-show-form {
+        width: 90%;
+    }
+}
+
+.popform-h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 32px;
+    font-weight: lighter;
+}
+.popform-h2 span {
+    color:  #e53f29;;
+}
+
+
+/*WHATSAPP BUTTON*/
+.float{
+    background: rgba(37, 211, 102, 0.7); /* Added transparency with rgba */
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0;
+	height: 0;
+	padding: 35px;
+	text-decoration: none;
+	border-radius: 50%;
+	animation-name: pulse;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+	}
+	80% {
+		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+	}
+}
